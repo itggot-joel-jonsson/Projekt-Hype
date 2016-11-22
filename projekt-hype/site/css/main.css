@@ -1,5 +1,9 @@
+body {
+    overflow-y: scroll;
+}
+
 .bgstart { /* Stal kanske denna >:) */
-  background: url("") no-repeat center top fixed; 
+  background: url("..//img/bgstart.jpg") no-repeat center top fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -13,6 +17,15 @@
   -o-background-size: cover;
   background-size: cover;
 } 
+
+.bgtest { /* Stal kanske denna >:) */
+  background: url("../img/podridegif.gif") no-repeat center top fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} 
+
 
 .main {
     display: flex;
@@ -73,12 +86,6 @@ a {
 
 .innelada {
     margin: 20px;
-}
-
-.innebild {
-    background-color: hotpink;
-    width: 100px;
-    height: 100px;
 }
 
 .margin0 {
