@@ -190,3 +190,31 @@ a {
     align-items: center;
     color: #1D2DEC;
 }
+
+.cursor {
+    cursor: auto;
+    -webkit-animation-name: cursor;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 1s;
+}
+
+@keyframes cursor {
+    0% {cursor: auto;}
+    5% {cursor: e-resize;}
+    10% {cursor: grab;}
+    15% {cursor: ne-resize;}
+    20% {cursor: wait;}
+    25% {cursor: help;}
+    30% {cursor: move;}
+    35% {cursor: n-resize;}
+    40% {cursor: nw-resize;}
+    45% {cursor: pointer;}
+    50% {cursor: progress;}
+    55% {cursor: s-resize;}
+    60% {cursor: se-resize;}
+    65% {cursor: sw-resize;}
+    70% {cursor: text;}
+    75% {cursor: wait;}
+    80% {cursor: not-allowed;}
+    100% {cursor: crosshair;}
+}
