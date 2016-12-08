@@ -166,9 +166,9 @@ a {
 }
 
 .bildlada {
-  display: flex;
-  flex-direction: row;
-   flex-wrap: wrap;  /*gör så att innehållet "wrappar" runt när diven tar slut */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  /*gör så att innehållet "wrappar" runt när diven tar slut */
     max-width: 1300px;
     border: 3px solid black;
     background-color: white;
